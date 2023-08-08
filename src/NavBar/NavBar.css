@@ -1,0 +1,10 @@
+.navbar-bg{
+    background-color: var(--desaturated_blue) !important;
+    border-radius: 15px;
+}
+.nav_text_color{
+    color: var(--slightly_transparent_white_one) !important;
+}
+.navbar-toggler{
+    background-color: var(--soft_violet) !important;
+} 

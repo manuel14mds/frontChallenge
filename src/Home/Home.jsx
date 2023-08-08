@@ -3,7 +3,7 @@ const Home = () => {
     return (
         <div className="component">
 
-        <div className="component_image">hols</div>
+        <div className="component_image"></div>
 
         <div className="component_data">
             <h1 className="title">Get <span className="accent">insights</span> that help your business grow.</h1>
