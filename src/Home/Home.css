@@ -1,0 +1,109 @@
+.component{
+    background-color: var(--soft_violet);
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.component_image{
+    background-image: url(/image-header-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(40%);
+    height: 240px;
+    width: auto;
+}
+.component_data{
+    background-color: var(--desaturated_blue);
+    margin: 0;
+    padding: 35px 21px;
+}
+
+.component_data .title{
+    font-family: var(--font_two);
+    color: var(--slightly_transparent_white_one);
+    text-align: center;
+    margin-top: 0;
+    
+}
+.accent{
+    color: var(--soft_violet);
+}
+.component_data .info{
+    font-family: var(--font_one);
+    color: var(--slightly_transparent_white_two);
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+}
+.component_data .data{
+    font-family: var(--font_one);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.component_data .data .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.component_data .data .item .item_info{
+    color: var(--slightly_transparent_white_two);
+    font-size: 10px;
+    margin: 2px;
+}
+.component_data .data .item .stats{
+    color: var(--slightly_transparent_white_one);
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+@media (min-width: 450px) {
+    .component{
+        flex-direction: row-reverse;
+        align-items: stretch;
+    }
+    .component_image{
+        display: unset;
+        background-image: url(/image-header-desktop.jpg);
+        height: auto;
+        width: 50%;
+        flex: 1;
+    }
+    .component_data{
+        flex: 1;
+        width: 50%;
+    }
+    .component_data .title{
+        font-size: 25px;
+        text-align: start;
+    }
+    .component_data .info{
+        font-size: 12px;
+        text-align: start;
+    }
+    .component_data .data{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (min-width: 800px) {
+    .component{
+        margin-top: 100px;
+    }
+    .component_data{
+        padding: 65px;
+    }
+    .component_data .title{
+        font-size: 2rem;
+    }
+    .component_data .info{
+        font-size: 14px;
+    }
+}

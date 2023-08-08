@@ -1,42 +1,22 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+* {
+    box-sizing: border-box;
+    --dark_blue:hsl(233, 47%, 7%);
+    --desaturated_blue:hsl(244, 38%, 16%);
+    --soft_violet:hsl(277, 64%, 61%);
+    --white:hsl(0, 0%, 100%);
+    --slightly_transparent_white_one:hsla(0, 0%, 100%, 0.75);
+    --slightly_transparent_white_two:hsla(0, 0%, 100%, 0.6);
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    --font_one: 'Inter', sans-serif;
+    --font_two: 'Lexend Deca', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+body{
+    background-color: var(--dark_blue);
+    font-size: 15px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
 }
