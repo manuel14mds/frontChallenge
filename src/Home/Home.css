@@ -4,7 +4,6 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
 }
 .component_image{
     background-image: url(/image-header-mobile.jpg);
@@ -95,9 +94,6 @@
     }
 }
 @media (min-width: 800px) {
-    .component{
-        margin-top: 100px;
-    }
     .component_data{
         padding: 65px;
     }

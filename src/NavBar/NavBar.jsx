@@ -12,8 +12,8 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="/placeholder" className='nav_text_color'>PlaceHolder</Nav.Link>
-                            <Nav.Link href="/ramdomdata" className='nav_text_color'>Ramdom data</Nav.Link>
+                            <Nav.Link href="/placeholder" className='nav_text_color'>PlaceHolder_API</Nav.Link>
+                            <Nav.Link href="/ramdomdata" className='nav_text_color'>Ramdom_data_API</Nav.Link>
                             <Nav.Link href="/ramdomdata" className='nav_text_color'>Pokeapi</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

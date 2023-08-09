@@ -1,0 +1,5 @@
+.loadingAnimation{
+    color: var(--soft_violet);
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+.loadingAnimation{
+    color: var(--soft_violet);
+    text-align: center;
+    padding: 20px;
+}
+.commentsPostId{
+    background-color: var(--desaturated_blue);
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--soft_violet);
+}

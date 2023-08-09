@@ -1,0 +1,15 @@
+
+.PHcard{
+    /* background-color: var(--desaturated_blue); */
+    background-color: var(--slightly_transparent_white_one) !important;
+}
+.PHcardItem{
+    border-color: var(--desaturated_blue) !important;
+    background-color: transparent !important;
+    /* color: var(--slightly_transparent_white_one); */
+    color: var(--desaturated_blue) !important;
+}
+.PHcardBtn{
+    background-color: var(--soft_violet) !important;
+    border: transparent !important;
+}
