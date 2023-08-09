@@ -1,0 +1,14 @@
+
+.applianceContainer{
+    margin-top: 10px;
+    height: 230px;
+    overflow-y: scroll;
+}
+.appliance_feature{
+    margin-bottom: 5px;
+}
+@media (min-width: 800px) {
+    .applianceContainer{
+        height: 310px;
+    }
+}

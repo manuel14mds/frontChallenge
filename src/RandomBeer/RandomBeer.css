@@ -1,0 +1,21 @@
+.beerBox{
+    margin-top: 10px;
+    height: 230px;
+    overflow-y: scroll;
+    background-color: var(--desaturated_blue);
+    border-radius: 15px;
+    padding: 20px;
+}
+.feature-beer-item{
+    color: var(--slightly_transparent_white_one);
+    font-size: 0.8rem;
+}
+@media (min-width: 800px) {
+    .beerBox{
+        height: 300px;
+    }
+    .feature-beer-item{
+        font-size: 1rem;
+    }
+
+}

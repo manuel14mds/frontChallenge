@@ -1,0 +1,25 @@
+.randomBankContainer{
+    margin-top: 10px;
+    height: 230px;
+    overflow-y: scroll;
+}
+.bank_list_group{
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}
+.bank_list_item{
+    background-color: var(--desaturated_blue);
+    border: 2px solid var(--slightly_transparent_white_one);
+    border-radius: 10px;
+    margin-bottom: 6px;
+    padding: 5px;
+    color: var(--slightly_transparent_white_one);
+    
+}
+
+@media (min-width: 800px) {
+    .randomBankContainer{
+        height: 310px;
+    }
+}

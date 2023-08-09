@@ -5,19 +5,26 @@ import RandomDataNotFound from '../RandomDataNotFound/RandomdataNotFound'
 
 const RandomUser = () => {
     const [user, setUser] = useState(null)
+
     function callAPI(){
         fetch(`https://random-data-api.com/api/v2/users`)
         .then(response => response.json())
         .then(json => setUser(json))
-        .catch(()=> setData([]))
+        .catch(()=> setUser(-1))
     }
 
     useEffect(()=>{
         callAPI()
     },[])
+
     return (
         <>
-            <button className='btn btn-primary reload_btn' onClick={callAPI}>Reload</button>
+            <div className="row">
+                <div className="col-2">
+                    <button className='btn btn-primary reload_btn' onClick={callAPI}>Reload</button>
+                </div>
+                <p className='col-10 data_title'>Random User Data</p>
+            </div>
             {!user ?
                 <LoadingAnimation />
                 :
@@ -27,7 +34,7 @@ const RandomUser = () => {
                     <div className='row userCard continer'>
                         <div className="userImage col-5">
                             <picture>
-                                <source srcset={user.avatar} type="image/svg+xml"/>
+                                <source srcSet={user.avatar} type="image/svg+xml"/>
                                 <img src={user.avatar} className="img-fluid img-thumbnail" alt="..."/>
                             </picture>
                         </div>
@@ -47,7 +54,7 @@ const RandomUser = () => {
                         </div>
                     </div>
             }
-                    </>
+        </>
     )
 }
 

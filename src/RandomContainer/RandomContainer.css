@@ -11,7 +11,7 @@
     border: 1px solid white;
     border-radius: 15px;
     width: 280px;
-    height: 280px;
+    height: 300px;
     padding: 10px;
 }
 .randomBox .randomBoxItem .reload_btn{
@@ -21,6 +21,12 @@
     padding: 4px;
     font-size: 0.7rem;
     
+}
+.loadingAnimation{
+    color: var(--dark_blue);
+}
+.data_title{
+    text-align: center;
 }
 
 

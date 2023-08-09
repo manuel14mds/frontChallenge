@@ -1,0 +1,25 @@
+.randomCardContainer{
+    margin-top: 10px;
+    height: 230px;
+    overflow-y: scroll;
+}
+.card_list_group{
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}
+.card_list_item{
+    background-color: var(--slightly_transparent_white_one);
+    border: 2px solid var(--desaturated_blue);
+    border-radius: 10px;
+    margin-bottom: 6px;
+    padding: 5px;
+    color: var(--desaturated_blue);
+    
+}
+
+@media (min-width: 800px) {
+    .randomCardContainer{
+        height: 310px;
+    }
+}
