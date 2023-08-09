@@ -1,0 +1,31 @@
+.userCard{
+    padding: 3px;
+    overflow-y: scroll;
+}
+.userData{
+    font-size: 0.7rem;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+.userDataInfo{
+    background-color: var(--desaturated_blue);
+    color: var(--slightly_transparent_white_one);
+}
+.userDataUp{
+    border-radius: 10px 10px 0px 0px;
+}
+.UserDataDown{
+    border-radius: 0px 0px 10px 10px;
+}
+@media (min-width: 450px) {
+    .userData{
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media (min-width: 800px) {
+    .userData{
+        font-size: 1rem;
+    }
+}

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import { Spinner } from "react-bootstrap"
 import {useParams} from 'react-router-dom'
 import CommentPH from "../CommentPH/CommentPH"
 import './CommentsPHContainer.css'
+import LoadingAnimation from "../LoadingAnimation/LoadingAnimation"
 
 
 const CommentsPHContainer = () => {
@@ -22,12 +22,9 @@ const CommentsPHContainer = () => {
         <br />
         {
             data.length == 0 ? 
-                <div className="loadingAnimation">
-                    Loading Content...  <br />
-                    <Spinner animation="border" />
-                </div>
+                <LoadingAnimation/>
             :
-            <div className='container-md'>
+                <div className='container-md'>
                     <h3 className="commentsPostId">Post ID: {postId}</h3>
                     {data.map((item) => ( <CommentPH key={item.id} info={item}/> ))}
                 </div>
