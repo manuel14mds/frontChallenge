@@ -64,7 +64,8 @@ npm run dev
 
 ## Deploy
 Este proyecto en Netlify
-[deploy](https://64d43aebba44c3115355eb35--visionary-malabi-d29e9f.netlify.app/) - Puedes ver la aplicación web desde aquí
+
+[deploy](https://64d43aebba44c3115355eb35--visionary-malabi-d29e9f.netlify.app/) <- Puedes ver la aplicación web desde aquí
 
 ## License
 **Free Software, Hell Yeah!**
