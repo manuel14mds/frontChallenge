@@ -5,7 +5,8 @@
     overflow-y: scroll;
 }
 .appliance_feature{
-    margin-bottom: 5px;
+    margin-bottom: 5px !important;
+    overflow-x: scroll;
 }
 @media (min-width: 800px) {
     .applianceContainer{

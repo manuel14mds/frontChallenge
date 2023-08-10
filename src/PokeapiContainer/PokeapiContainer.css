@@ -1,0 +1,25 @@
+.imagePokeapi{
+    background-image: url('https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+.boxPokeapi{
+    background-color: var(--desaturated_blue);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.responseBox{
+    background-color: var(--soft_violet);
+    min-height: 250px;
+    margin-top: 15px;
+    border-radius: 15px;
+    overflow-y: scroll;
+
+    display: grid;
+    place-items: center;
+}
+.search-btn{
+    background-color: var(--soft_violet) !important;
+}

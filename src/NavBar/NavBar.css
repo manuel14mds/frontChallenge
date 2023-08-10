@@ -5,6 +5,8 @@
 }
 .nav_text_color{
     color: var(--slightly_transparent_white_one) !important;
+    text-decoration: none;
+    margin: 5px 20px 5px 4px;
 }
 .nav_text_color:hover{
     color: var(--soft_violet) !important;

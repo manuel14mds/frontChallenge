@@ -31,21 +31,21 @@ const RandomAppliance = () => {
                     <RandomDataNotFound />
                     :
                     <div className='container applianceContainer'>
-                        <ul class="list-group list-group-horizontal-md appliance_feature">
-                            <li class="list-group-item"><strong>Applience ID:</strong></li>
-                            <li class="list-group-item flex-fill ">{appliance.id}</li>
+                        <ul className="list-group list-group-horizontal-md appliance_feature">
+                            <li className="list-group-item"><strong>Applience ID:</strong></li>
+                            <li className="list-group-item flex-fill ">{appliance.id}</li>
                         </ul>
-                        <ul class="list-group list-group-horizontal-md appliance_feature">
-                            <li class="list-group-item"><strong>Equipment:</strong></li>
-                            <li class="list-group-item flex-fill ">{appliance.equipment}</li>
+                        <ul className="list-group list-group-horizontal-md appliance_feature">
+                            <li className="list-group-item"><strong>Equipment:</strong></li>
+                            <li className="list-group-item flex-fill ">{appliance.equipment}</li>
                         </ul>
-                        <ul class="list-group list-group-horizontal-md appliance_feature">
-                            <li class="list-group-item"><strong>Brand:</strong></li>
-                            <li class="list-group-item flex-fill ">{appliance.brand}</li>
+                        <ul className="list-group list-group-horizontal-md appliance_feature">
+                            <li className="list-group-item"><strong>Brand:</strong></li>
+                            <li className="list-group-item flex-fill ">{appliance.brand}</li>
                         </ul>
-                        <ul class="list-group list-group-horizontal-md appliance_feature">
-                            <li class="list-group-item"><strong>UID:</strong></li>
-                            <li class="list-group-item flex-fill ">{appliance.uid}</li>
+                        <ul className="list-group list-group-horizontal-md appliance_feature">
+                            <li className="list-group-item"><strong>UID:</strong></li>
+                            <li className="list-group-item flex-fill ">{appliance.uid}</li>
                         </ul>
 
                     </div>
